@@ -1,6 +1,6 @@
-# WP2Static Amazon S3 Deployment Add-on
+# WP2Static Google Cloud Storage Deployment Add-on
 
-Adds Amazon S3 as a deployment option for WP2Static.
+Adds Google Cloud Storage as a deployment option for WP2Static.
 
-Take advantage of Amazon S3 to host your WordPress powered static website.
+Take advantage of Google Cloud Storage to host your WordPress powered static website.
 

@@ -1,6 +1,6 @@
 {
     "name": "leonstafford/wp2static-addon-gcs",
-    "description": "S3 deployment Add-on for WP2Static.",
+    "description": "Google Cloud Storage deployment Add-on for WP2Static.",
     "homepage": "https://wp2static.com",
       "license": "UNLICENSE",
       "authors": [
@@ -37,7 +37,7 @@
     },
     "autoload": {
         "psr-4": {
-            "WP2StaticS3\\": "src/"
+            "WP2StaticGCS\\": "src/"
         }
     },
     "autoload-dev": {
