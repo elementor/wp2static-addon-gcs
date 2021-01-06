@@ -2,7 +2,7 @@
 
 ######################################
 ##
-## Build WP2Static S3 Deployment Addon
+## Build WP2Static GCS Deployment Addon
 ##
 ## script archive_name dont_minify
 ##

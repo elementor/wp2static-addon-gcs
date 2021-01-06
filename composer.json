@@ -21,7 +21,7 @@
     ],
     "require": {
         "php": ">=7.3",
-        "aws/aws-sdk-php": "^3.166.1"
+        "google/cloud-storage": "^1.23.0"
     },
     "require-dev": {
         "phpstan/phpstan": "*",
@@ -43,7 +43,7 @@
     "autoload-dev": {
         "psr-4": {
             "PHPStan\\WordPress\\": "tests/phpstan/",
-            "WP2StaticS3\\": "src/"
+            "WP2StaticGCS\\": "src/"
         }
     },
     "config": {
