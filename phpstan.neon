@@ -8,7 +8,7 @@ parameters:
     inferPrivatePropertyTypeFromConstructor: true
     paths:
         - %currentWorkingDirectory%/src/
-        - %currentWorkingDirectory%/wp2static-addon-s3.php
+        - %currentWorkingDirectory%/wp2static-addon-gcs.php
     scanFiles:
         - %currentWorkingDirectory%/tests/phpstan/bootstrap.php
         - %currentWorkingDirectory%/tests/phpstan/wp-cli-stubs-2.2.0.php

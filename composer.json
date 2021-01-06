@@ -1,5 +1,5 @@
 {
-    "name": "leonstafford/wp2static-addon-s3",
+    "name": "leonstafford/wp2static-addon-gcs",
     "description": "S3 deployment Add-on for WP2Static.",
     "homepage": "https://wp2static.com",
       "license": "UNLICENSE",
@@ -12,10 +12,10 @@
       ],
     "type": "wordpress-plugin",
     "support": {
-        "issues": "https://github.com/leonstafford/wp2static-addon-s3/issues",
+        "issues": "https://github.com/leonstafford/wp2static-addon-gcs/issues",
         "forum": "https://wp2static.com/community",
         "docs": "https://wp2static.com/documentation",
-        "source": "https://github.com/leonstafford/wp2static-addon-s3"
+        "source": "https://github.com/leonstafford/wp2static-addon-gcs"
     },
     "repositories": [
     ],
