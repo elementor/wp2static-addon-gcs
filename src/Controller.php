@@ -35,7 +35,7 @@ class Controller {
             'wp2static-addon-gcs',
             'deploy',
             'GCS Deployment',
-            'https://wp2static.com/addons/gcs/',
+            'https://wp2static.com/addons/google-cloud-storage/',
             'Deploys to Google Cloud Storage'
         );
     }
