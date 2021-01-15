@@ -1,9 +1,17 @@
+<?php
+// phpcs:disable Generic.Files.LineLength.MaxExceeded                              
+// phpcs:disable Generic.Files.LineLength.TooLong                                  
+
+/**
+ * @var mixed[] $view
+ */
+?>
 <h2>GCS Deployment Options</h2>
 
 <form
     name="wp2static-gcs-save-options"
     method="POST"
-    action="<?php echo esc_url( admin_url('admin-post.php') ); ?>">
+    action="<?php echo esc_url( admin_url( 'admin-post.php' ) ); ?>">
 
     <?php wp_nonce_field( $view['nonce_action'] ); ?>
     <input name="action" type="hidden" value="wp2static_gcs_save_options" />
@@ -87,10 +95,12 @@
                     name="<?php echo $view['options']['objectACL']->name; ?>"
                 >
                     <option
-                        <?php if ( $view['options']['objectACL']->value === 'publicRead' ) { echo "selected"; } ?>
+                        <?php if ( $view['options']['objectACL']->value === 'publicRead' ) {
+                            echo 'selected'; } ?>
                         value="publicRead">publicRead</option>
                     <option
-                        <?php if ( $view['options']['objectACL']->value === 'private' ) { echo "selected"; } ?>
+                        <?php if ( $view['options']['objectACL']->value === 'private' ) {
+                            echo 'selected'; } ?>
                         value="private">private</option>
                 </select>
             </td>
