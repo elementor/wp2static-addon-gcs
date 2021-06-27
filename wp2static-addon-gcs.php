@@ -3,7 +3,7 @@
 /**
  * Plugin Name:       WP2Static Add-on: GCS Deployment
  * Plugin URI:        https://wp2static.com
- * Description:       AWS GCS deployment add-on for WP2Static.
+ * Description:       GCP GCS deployment add-on for WP2Static.
  * Version:           1.0.0-dev
  * Requires PHP:      7.3
  * Author:            Leon Stafford
